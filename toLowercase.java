@@ -18,7 +18,7 @@ public class toLowercase {
        {
            temp=str.charAt(i);
 
-           if(temp>=64&&temp<=90)
+           if(temp>=65&&temp<=90)
            {
             ch[i]=(char)(temp+32);
            }
