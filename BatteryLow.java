@@ -17,15 +17,12 @@ public class BatteryLow {
 
         for(int i=0;i<size;i++)
         {
-            isBattryLow(arr[i]);
+            if(arr[i]<=15)
+            System.out.println("YES");
+            else
+            System.out.println("No");
         }
     }
 
-    public static void isBattryLow(int bat)
-    {
-        if(bat<=15)
-        System.out.println("YSE");
-        else
-        System.out.println("NO");
-    }
+   
 }
