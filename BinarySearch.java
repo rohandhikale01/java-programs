@@ -23,7 +23,7 @@ public class BinarySearch {
         while(low<=high)
         {
             count++;
-         mid=(int)(low+high)/2;
+             mid=(int)(low+high)/2;
             if(key<arr[mid])
             {
                 high=(mid-1);
