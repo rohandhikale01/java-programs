@@ -14,7 +14,7 @@ public class AorB {
                 arr[i][j]=scan.nextInt();
             }
         }
-
+z
         for (int[] is : arr) {
             getBest(is);
         }
